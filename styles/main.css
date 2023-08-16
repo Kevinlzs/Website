@@ -1,0 +1,52 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6699CC;
+    display:flex;
+}
+
+.navbar {
+    height: 10%;
+    width: 100vw;
+    background-color: #003B6D;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+ul, a, button {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #6699CC;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style:none;
+}
+
+.nav__links ul {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links ul a{
+    transition: all .3s ease 0s;
+}
+
+.nav__links ul a:hover{
+    color: #0088a9;
+    cursor:pointer;
+}
